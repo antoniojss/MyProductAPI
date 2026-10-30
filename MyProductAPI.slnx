@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Src/" />
+  <Folder Name="/Src/BackEnd/">
+    <Project Path="../Application/MyProductAPI.Application.csproj" />
+    <Project Path="../MyProductAPI.Domain/MyProductAPI.Domain.csproj" />
+    <Project Path="../MyProductAPI.Infrastructure/MyProductAPI.Infrastructure.csproj" />
+    <Project Path="MyProductAPI.csproj" />
+  </Folder>
+  <Folder Name="/Src/Shared/">
+    <Project Path="../Comunication/MyProductAPI.Communication.csproj" Id="e9f77e25-b280-401e-a473-07f1736f6989" />
+    <Project Path="../MyProductAPI.Exception/MyProductAPI.Exception.csproj" Id="732328ee-0f4d-45bc-9954-48ac933f37de" />
+  </Folder>
+  <Folder Name="/Tests/" />
+</Solution>
